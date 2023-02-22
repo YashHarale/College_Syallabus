@@ -1,3 +1,13 @@
+nav {
+    text-align: center;
+    margin-left: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    word-spacing: 4px;
+}
+
 body {
     background-image: url(yash.jpg);
     background-repeat: no-repeat;
@@ -9,10 +19,20 @@ body {
 
 #hero {
     text-align: center;
-    
+    display:contents;
 }
 
-#para1{
+#hero h1 {
+    margin-left: 20%;
+}
+
+#hero p {
+    /* border: 2px solid red; */
+    margin-left: 20%;
+}
+
+.skills {
     text-align: center;
+    text-overflow: clip;
 }
 
