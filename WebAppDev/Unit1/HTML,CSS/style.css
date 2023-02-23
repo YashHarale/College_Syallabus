@@ -1,11 +1,14 @@
 nav {
     text-align: center;
     margin-left: 20%;
+    margin-bottom: 37px;
+    border: 2px dotted red;
+    background-color: blueviolet;
 }
 
 nav a {
     text-decoration: none;
-    word-spacing: 4px;
+    padding: 70px;
 }
 
 body {
@@ -14,7 +17,6 @@ body {
     background-size:contain;
     background-position: left;
     background-attachment: fixed;
-
 }
 
 #hero {
@@ -29,10 +31,13 @@ body {
 #hero p {
     /* border: 2px solid red; */
     margin-left: 20%;
+    
 }
 
 .skills {
     text-align: center;
     text-overflow: clip;
+    margin-left: 20%;
+    margin-top:37px;
 }
 
