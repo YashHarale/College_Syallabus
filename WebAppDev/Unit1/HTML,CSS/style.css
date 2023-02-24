@@ -17,6 +17,7 @@ body {
     background-size:contain;
     background-position: left;
     background-attachment: fixed;
+    text-shadow:4px 4px 6px rgb(46, 45, 44);
 }
 
 #hero {
@@ -37,7 +38,13 @@ body {
 .skills {
     text-align: center;
     text-overflow: clip;
-    margin-left: 20%;
-    margin-top:37px;
+    margin-left: 40%;
+    margin-top:52px;
+    width: 40%;
+    /* border:2px solid rebeccapurple; */
+}
+
+.skills h1 {
+    text-decoration: underline;
 }
 
