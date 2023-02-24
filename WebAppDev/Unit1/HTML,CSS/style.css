@@ -2,8 +2,8 @@ nav {
     text-align: center;
     margin-left: 20%;
     margin-bottom: 37px;
-    border: 2px dotted red;
-    background-color: blueviolet;
+    /* border: 2px dotted red; */
+    /* background-color: blueviolet; */
 }
 
 nav a {
