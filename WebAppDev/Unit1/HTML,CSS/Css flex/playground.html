@@ -20,12 +20,16 @@
             margin-top: 40px;
             flex-direction: row;
             align-items: center;
-            height: 200px;
+            /* height: 200px; */
+            flex-wrap: wrap;
         }
 
         #fex div {
-            /* Three values */
-            flex: 1 0 auto;
+            /* Three values flex-grow,shrink,basis */
+            flex: 1 0 auto;  /* by default flex-grow is 1 */
+            /* height: 50px; */
+            /* width: 140px; */
+            text-align: center;
         }
 
         .html {
