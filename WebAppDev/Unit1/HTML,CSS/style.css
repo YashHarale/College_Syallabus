@@ -49,3 +49,12 @@ body {
     text-decoration: underline;
 }
 
+.pro{
+    display: inline-block;
+    /* justify-content: center; */
+    margin-left: 50%;
+}
+
+.pr {
+    border: 2px solid red;
+}
