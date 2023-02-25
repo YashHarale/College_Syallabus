@@ -22,7 +22,8 @@ body {
 
 #hero {
     text-align: center;
-    display:contents;
+    /* display: contents; Will remove the container, only content will be present */
+    display: block;
 }
 
 #hero h1 {
