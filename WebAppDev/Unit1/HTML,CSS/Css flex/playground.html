@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        
+
+        h1 {
+            /* text-align: center; */
+        }
+
+        #fex {
+            display: flex;
+            border: 3px solid purple;
+           justify-content: center;
+            /* margin-left: 37%; */
+            margin-top: 40px;
+            flex-direction: row;
+            align-items: center;
+            height: 200px;
+        }
+
+        #fex div {
+            /* Three values */
+            flex: 1 0 auto;
+        }
+
+        .html {
+            background-color: antiquewhite;
+            margin: 20px;
+            border: 2px solid red;
+            height: 59px;
+        }
+
+
+        /* will see it afterwards */
+        /* @media (max-width: 700px) {
+            #fex {
+            flex-direction: column;
+            align-items: center;
+            height: 200px;
+
+            }
+        } */
+
+
+    </style>
+</head>
+<body>
+    
+    <h1> <u>Css in Crazy</u></h1>
+
+    <div id="fex">
+        <div class="html">HTML</div>
+        <div class="html">CSS</div>
+        <div class="html">JS</div>
+        <div class="html">VUEjs</div>
+
+       
+        <!-- <div class="html">CSS</div>
+        <div class="html">JS</div>
+        <div class="html">VUEjs</div> -->
+    </div>
+
+
+    
+</body>
+</html>
