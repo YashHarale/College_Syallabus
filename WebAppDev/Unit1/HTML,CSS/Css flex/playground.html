@@ -31,9 +31,6 @@
             /* width: 140px; */
             text-align: center;
             width: 300px;
-        }
-
-        .html {
             background-color: antiquewhite;
             margin: 20px;
             border: 2px solid red;
@@ -42,7 +39,7 @@
 
         #grid {
             display:grid;
-            grid: auto auto / auto auto auto auto;
+            grid: auto auto / auto auto auto  auto;
             border: 2px solid red;
             background-color: aquamarine;
             grid-gap: 10px;
@@ -60,6 +57,20 @@
 
         }
 
+        .i {
+            text-align: center;
+            border: 2px solid red;
+            background-color: aliceblue;
+
+            /* transform: translate(10px, 10px); */
+            width: 100px;
+            height: 200px;
+            /* justify-content: center; */
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 29px;
+        }
+
 
         /* will see it afterwards */
         /*@media (max-width: 700px) {
@@ -69,6 +80,12 @@
             /* height: 200px; 
             } 
         }*/
+
+        @media (max-width: 700px) {
+            #grid {
+                grid-auto-flow: column;
+            }
+        }
 
     </style>
 </head>
@@ -105,11 +122,16 @@
         <div class="items">1</div>
 
         <div class="items">1</div>
+        <!-- <div class="items">1</div>
         <div class="items">1</div>
         <div class="items">1</div>
-        <div class="items">1</div>
-        <div class="items">1</div>
+        <div class="items">1</div> -->
     </div>
+
+    <div class="i">1</div>
+
+
+
 
 
     
