@@ -22,11 +22,12 @@
             align-items: center;
             /* height: 200px; */
             flex-wrap: wrap;
+            margin-bottom: 25px;
         }
 
         #fex div {
             /* Three values flex-grow,shrink,basis */
-            /*flex: 1 0 auto; /* by default flex-grow is 1 */
+            /*flex: 1 0 auto; /*by default flex-grow is 1 */
             /* height: 50px; */
             /* width: 140px; */
             text-align: center;
@@ -47,7 +48,7 @@
             
         }
 
-        .items {
+        .GridItems {
             border: 2px solid green;
             background-color:#8ca0ff ;
             text-align: center;
@@ -57,13 +58,15 @@
 
         }
 
-        .i {
+        .transformations {
             text-align: center;
             border: 2px solid red;
             background-color: aliceblue;
 
+            /* transform: scale(20px); */
             /* transform: translate(10px, 10px); */
-            width: 100px;
+
+            width: 200px;
             height: 200px;
             /* justify-content: center; */
             margin: auto;
@@ -71,30 +74,28 @@
             margin-top: 29px;
         }
 
+        .trans {
+            border: 2px solid red;
+            margin: auto;
+            background-color:yellow ;
+            text-align: center;
+            height: 60px;
+            width: 200px;
 
-        /* will see it afterwards */
-        /*@media (max-width: 700px) {
-            #fex {
-            /* flex-direction: column; */
-            /* align-items: center; */
-            /* height: 200px; 
-            } 
-        }*/
-
-        @media (max-width: 700px) {
-            #grid {
-                grid-auto-flow: column;
-            }
+            /* transition: ease-out; */
         }
+    
+        
+        .trans:hover {
+            width:300px;
+        }
+
 
     </style>
 </head>
 <body>
     
     <h1> <u>Css in Crazy</u></h1>
-
-    <!-- Color is dope -->
-    <!-- /*#8ca0ff* -->
 
     <div id="fex">
         <div class="html">HTML</div>
@@ -107,28 +108,27 @@
         <div class="html">JS</div>
         <div class="html">VUEjs</div>
 
-       
-        <!-- <div class="html">CSS</div>
-        <div class="html">JS</div>
-        <div class="html">VUEjs</div> -->
+  
     </div>
 
     <div id="grid">
-        <div class="items">1</div>
-        <div class="items">1</div>
-        <div class="items">1</div>
-        <div class="items">1</div>
-        <div class="items">1</div>
-        <div class="items">1</div>
+        <div class="GridItems">1</div>
+        <div class="GridItems">1</div>
+        <div class="GridItems">1</div>
+        <div class="GridItems">1</div>
+        <div class="GridItems">1</div>
+        <div class="GridItems">1</div>
 
-        <div class="items">1</div>
+        <div class="GridItems">1</div>
         <!-- <div class="items">1</div>
         <div class="items">1</div>
         <div class="items">1</div>
         <div class="items">1</div> -->
     </div>
 
-    <div class="i">1</div>
+    <div class="transformations">Transformations</div>
+
+    <div class="trans">Transitions</div>
 
 
 
