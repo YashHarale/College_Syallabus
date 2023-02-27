@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+            div {
+                border: 2px solid red;
+                background-color: rgb(128, 220, 220);
+                width: 100px;
+                height: 100px;
+                padding: 20px;
+                
+                margin: auto;
+                margin-bottom: 30px;
+                transition: width 3000ms 1000ms ;
+                /* transition-delay: 1000ms; */
+
+            }
+
+            div#cubic {
+                transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+
+            div#ease-in {
+                transition-timing-function: ease-in;
+            }
+
+            div#ease-out {
+                transition-timing-function: ease-out;
+            }
+
+            div#linear {
+                transition-timing-function: linear;
+            }
+
+            div:hover {
+                width:600px;
+                /* transform: rotate(200deg); */
+                /* background-color: rgb(207, 134, 134); */
+            }
+
+
+ 
+    </style>
+
+</head>
+<body>
+
+    
+    <div id="cubic">cubic</div>
+    <div id="ease-in">ease-in</div>
+    <div id="ease-out">ease-out</div>
+    <div id="linear">linear</div>
+    
+</body>
+</html>
