@@ -14,15 +14,15 @@
             position: relative;
             background-color: aquamarine;
 
-            animation-name: first;
-            animation-duration: 2s;
-            animation-fill-mode: forwards; /*at what position the animation will stop */
-            animation-iteration-count: 3;
-            animation-direction:alternate;
-            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
+            /* animation-name: first; */
+            /* animation-duration: 2s; */
+            /* animation-fill-mode: forwards; at what position the animation will stop */
+            /* animation-iteration-count: 3; */
+            /* animation-direction:alternate; */
+            /* animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+            
             /* Animation shorthand property */
-            /* /animation: ;  */
+            animation: first 2s ease-in 1s 2 alternate-reverse forwards; /*animation: aniName duration timingFunction delay iterationCount direction fill-mode*/
             
 
         }
@@ -32,10 +32,6 @@
             to {background-color: rgb(14, 15, 15); width: 200px;}
         }
 
-        /* @keyframes first {
-            from{background-color: rgb(15, 16, 16); width: 200px;}
-            to {background-color: rgb(76, 143, 143); width: 100px;}
-        } */
 
 
     </style>
