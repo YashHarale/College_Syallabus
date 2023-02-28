@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div {
+            width: 100px;
+            height: 100px;
+            margin:auto;
+            position: relative;
+            background-color: aquamarine;
+
+            animation-name: first;
+            animation-duration: 2s;
+            animation-fill-mode: forwards; /*at what position the animation will stop */
+            animation-iteration-count: 3;
+            animation-direction:alternate;
+            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+            /* Animation shorthand property */
+            /* /animation: ;  */
+            
+
+        }
+
+        @keyframes first {
+            from{background-color: aquamarine; width: 100px;}
+            to {background-color: rgb(14, 15, 15); width: 200px;}
+        }
+
+        /* @keyframes first {
+            from{background-color: rgb(15, 16, 16); width: 200px;}
+            to {background-color: rgb(76, 143, 143); width: 100px;}
+        } */
+
+
+    </style>
+</head>
+<body>
+
+        <div >  </div>
+
+
+</body>
+</html>
