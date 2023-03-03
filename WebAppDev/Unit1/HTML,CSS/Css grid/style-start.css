@@ -159,7 +159,6 @@ h3 {
 
 @media (min-width: 800px) {
 
-  /* We can also use it instead of ways below */
   /* .testimonial-grid {
     grid-template-areas:
     'one one two five'
