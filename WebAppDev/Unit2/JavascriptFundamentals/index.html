@@ -6,19 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Playground</title>
     <script text="text/Javascript">
-        function Alert () {
-            alert("Hi universe!")
-            let a = parseInt(prompt("Enter the 1st number"));
-            let b = parseInt(prompt("Enter the 2nd number"));
+        function basics () {
+            // alert("Hi universe!")
+
+            let a = 2;
+            let b = 3;
+
+            //  a = parseInt(prompt("Enter the 1st number"));
+            //  b = parseInt(prompt("Enter the 2nd number"));
             
             let multi = a*b;
 
-            const c = ["yash", "pratik", "slaman"];
+            const c = new Array("yash", "pratik", "salman")
+            // const c = ["yash", "pratik", "slaman"];
+            console.log(c.concat(["rohan", "saniya"]));
+
+            const d = [1, 92, 2, 4 ,0]
+            console.log(d.pop()); // Removes and returns last ele of arr  // where as push() adds ele from back
+            console.log(d.shift()); // Removes and returns first ele of arr // where as unshift() adds ele at front
+            console.log(d.sort())
+
+            d.join() // Joins all ele's of the arr as a string
+            console.log(d);
+
+
             console.log(c.indexOf("pratik"))
             return multi;
         }
 
-        const multi = Alert();
+        const multi = basics();
         console.log(multi)
 
     </script>
@@ -27,7 +43,7 @@
 
     <h1>Javascript is Good</h1>
 
-    <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" onclick="Alert() ">Click Me</button>    
+    <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" onclick="basics()">Click Me</button>    
 
   
 
