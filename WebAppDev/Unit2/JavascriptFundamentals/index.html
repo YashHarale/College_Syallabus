@@ -8,7 +8,19 @@
     <script text="text/Javascript">
         function Alert () {
             alert("Hi universe!")
+            let a = parseInt(prompt("Enter the 1st number"));
+            let b = parseInt(prompt("Enter the 2nd number"));
+            
+            let multi = a*b;
+
+            const c = ["yash", "pratik", "slaman"];
+            console.log(c.indexOf("pratik"))
+            return multi;
         }
+
+        const multi = Alert();
+        console.log(multi)
+
     </script>
 </head>
 <body>
@@ -16,5 +28,8 @@
     <h1>Javascript is Good</h1>
 
     <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" onclick="Alert() ">Click Me</button>    
+
+  
+
 </body>
 </html>
