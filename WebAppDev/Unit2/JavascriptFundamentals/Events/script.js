@@ -24,3 +24,17 @@ console.log(document.querySelector('.btn').textContent);
 
 console.log( document.querySelector('.darwin').textContent);
 // console.log(elem);
+
+//Exercise
+
+const Student = {
+    name: ["yash", "raman", "sham", "karan"],
+    marks:[99, 98, 94, 90],
+    subject: "Mathematics"
+}
+
+let i = 0;
+while (i < Student.name.length) {
+    console.log(`${Student.name[i]} has scored ${Student.marks[i]} in ${Student.subject}`)
+    i++;
+}
