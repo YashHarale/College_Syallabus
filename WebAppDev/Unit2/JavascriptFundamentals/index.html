@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Playground</title>
     <script text="text/Javascript">
+
+        const ele = document.querySelector("btn")
+
         function basics () {
             // alert("Hi universe!")
 
@@ -40,7 +43,11 @@
             return multi;
         }
 
-        // let a = ["a", "b", "c", "d", "e"]
+        let a = ["a", "b", "c", "d", "e"]
+        console.log(typeof a);
+
+        console.log(a.constructor());
+        console.log(a.length);
         // a.splice(2, 1); // First argument specify the starting position and sec arg specify number of ele to be deleted
         // console.log(a);
         // a.splice(0, 2, "A", "B", "C") // 3rd argument("A", "B", "C") will replace the deleted elements and also add extra ele [like here "C"] after the replaced ele's
@@ -55,7 +62,8 @@
 
     <h1>Javascript is Good</h1>
 
-    <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" onclick="basics()">Click Me</button>    
+    <!-- Don't use "Inline event handlers or HTML event handler attri" such as onclick -->
+    <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" onclick="basics()" class="btn">Click Me</button>    
 
   
 
