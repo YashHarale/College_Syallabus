@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Playground</title>
-    <script text="text/Javascript">
-
-        const ele = document.querySelector("btn")
-
+    <script>
+    
         function basics () {
             // alert("Hi universe!")
 
@@ -53,17 +51,21 @@
         // a.splice(0, 2, "A", "B", "C") // 3rd argument("A", "B", "C") will replace the deleted elements and also add extra ele [like here "C"] after the replaced ele's
         // console.log(a);
 
-        const multi = basics();
-        console.log(multi)
+        // const multi = basics();
+        // console.log(multi)
 
     </script>
 </head>
 <body>
 
+    <div id="main" style="height: 40px; width: 120px; background-color: aqua;">
+        <h1>Welcome to JS</h1>
+    </div>
+
     <h1>Javascript is Good</h1>
 
     <!-- Don't use "Inline event handlers or HTML event handler attri" such as onclick -->
-    <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" onclick="basics()" class="btn">Click Me</button>    
+    <button style="width: auto; height: 20px; background-color: aqua; border: 2px solid red; margin: 20px 20px; cursor: pointer;" class="btn" onclick="basics()">Click Me</button>    
 
   
 
