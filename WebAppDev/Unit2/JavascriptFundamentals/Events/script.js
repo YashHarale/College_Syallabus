@@ -1,5 +1,9 @@
 'use strict';
 
+window.addEventListener('load', ()=> {
+    console.log("Page loaded");
+})
+
 
 const fun = function() {
     // document.body.style.backgroundColor = `blue`

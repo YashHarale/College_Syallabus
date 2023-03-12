@@ -1,0 +1,5 @@
+{
+    "Students":["yash", "naitik", "rohan", "raj"],
+    "Subjects":[{"name": "Maths", "marks":90}, {"name": "Science", "marks":94}],
+    "TotalStudentApplication": 100
+}
