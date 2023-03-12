@@ -42,3 +42,31 @@ while (i < Student.name.length) {
     console.log(`${Student.name[i]} has scored ${Student.marks[i]} in ${Student.subject}`)
     i++;
 }
+
+
+// const a = () => {
+//     console.log(this)
+// }
+// a();
+
+// const b = function (a, b) {
+//     // console.log(this.a);
+//     return this.a;
+// }
+
+// let c = new b(2, 3)
+// console.log(c);
+
+// function greeting(name) {
+//     alert(`Hello, ${name}`);
+//   }
+  
+//   function processUserInput(callback) {
+//     const name = prompt("Please enter your name.");
+//     callback(name);
+//   }
+  
+//   processUserInput(greeting);
+
+
+  
